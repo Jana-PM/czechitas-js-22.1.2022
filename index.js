@@ -1,1 +1,1 @@
-import ('./prvniukol.js');
+import './Ukol2.js';
