@@ -8,11 +8,11 @@ let a = Number(prompt("a"));
 let b = Number(prompt("b"));
 
 funkce1(a,b){
-  let soucet = a + b;
-  let rozdil = a - b;
-  let nasobek = a * b;
-  let podil = math.abs(a / b);
-console.log("soucet:" + soucet, "rozdil:" + rozdil, "nasobek:" + nasobek, "podil:" + podil);
+  let soucet = a + b
+  let rozdil = a - b
+  let nasobek = a * b
+  let podil = math.abs(a / b)
+console.log("soucet:" + soucet, "rozdil:" + rozdil, "nasobek:" + nasobek, "podil:" + podil)
 };
 
 /*
