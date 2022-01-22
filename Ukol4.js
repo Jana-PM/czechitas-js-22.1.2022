@@ -2,15 +2,18 @@
   1) Napiste funkci, ktera vypise soucet, rozdil, nasobek a podil 2 zadanych cisel, rozdil zobrazujte jako absolutni hodnotu
   - Math.abs()
 */
-console.log("ahoj")
+
+
+let a = Number(prompt("a"));
+let b = Number(prompt("b"));
 
 funkce1(a,b){
   let soucet = a + b;
-  let rozdil = math.abs (a - b);
+  let rozdil = a - b;
   let nasobek = a * b;
-  let podil = a / b;
-console.log(soucet, rozdil, nasobek, podil);
-}
+  let podil = math.abs(a / b);
+console.log("soucet:" + soucet, "rozdil:" + rozdil, "nasobek:" + nasobek, "podil:" + podil);
+};
 
 /*
   2) Napiste funkci, ktera vypise informaci, zda zadane cislo je nebo neni prvocislo.
